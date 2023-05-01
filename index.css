@@ -1,0 +1,39 @@
+.counter {
+  text-align: center;
+  font-family: "Manrope";
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+button {
+  display: block;
+  font-family: "Manrope";
+  width: 500px;
+  height: 100px;
+  padding-left: 164px;
+  padding-right: 163px;
+  margin: 0 auto 36px;
+
+  border-radius: 20px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.add {
+  background: #4191ff;
+}
+
+.reset {
+  background: #d45366;
+}
+
+@media (max-width: 767px) {
+  button {
+    width: 100%;
+  }
+}
